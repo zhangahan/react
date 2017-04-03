@@ -9,12 +9,13 @@ import SuperManger from './superManger/SuperManger';
 
 import './index.css';
 
-import { Router, Route, hashHistory ,IndexRoute ,IndexRedirect , Link,Redirect} from 'react-router';
+import { Router, Route, hashHistory ,IndexRoute} from 'react-router';
 import{Provider}from 'react-redux';
 import {createStore} from 'redux';
 import todoApp from './reducer';
 console.log(createStore);
 let store=createStore(todoApp);
+let aa;
 
 ReactDOM.render(
     (
