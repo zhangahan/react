@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/first-react/src/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/first-react/src/student-1/delProgram.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/first-react/src/student-1/leftBottom.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/first-react/src/student-1/leftTop.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/first-react/src/student-1/mask.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/first-react/src/student-1/one.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/first-react/src/student-1/program.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/first-react/src/student-1/rightTop.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/first-react/src/student-1/rightToptitle.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/first-react/src/student-1/student.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/first-react/src/student-2/two.js" charset="UTF-8" />
+  </component>
+</project>

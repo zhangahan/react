@@ -1,0 +1,407 @@
+body,html,h1,h2,h3,h4,h5,h6,ul,li,p{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+@font-face{
+    font-family: "myfonts";
+    src: url(./fonts/fonts/AkzidenzGrotesk-BoldCondAlt.otf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    min-width: 1000px;
+}
+/***************导航*****************/
+.header{
+    width: 100%;
+    height: 75px;
+    background-color: #0D0B18;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width:auto;
+    height:auto;
+}
+.teaching-cycle,
+.teacher{
+    width:auto;
+    height:auto;
+
+}
+.teaching-cycle > span,
+.teacher > span{
+    font-size: 16px;
+    line-height: 35px;
+}
+.teaching-cycle > span:nth-of-type(1),
+.teacher > span:nth-of-type(1){
+    margin-right: 20px;
+    color:#fff;
+    float: left;
+}
+.teaching-cycle > span:nth-of-type(2),
+.teacher > span:nth-of-type(2){
+    color:#EED63E;
+    float: left;
+}
+.teaching-cycle > span:nth-of-type(3),
+.teacher > span:nth-of-type(3){
+    margin-left: 20px;
+    color:#fff;
+    float: right;
+}
+.teacher > span:nth-of-type(1),
+.teacher > span:nth-of-type(3){
+    color:#CDCCCD;
+}
+.link{
+    width: 25px;
+    height:25px;
+    margin-top:3px;
+}
+.link > img{
+    width: 100%;
+}
+
+
+/***************中间部分********************/
+#box{
+    width:100%;
+    height:auto;
+    display: table;
+    background-color: #EAEAEA;
+}
+
+/**************右边*************/
+.middle{
+    width:100%;
+    height:auto;
+    float: left;
+    display: table;
+}
+.middle-inner{
+    margin-left:300px;
+    padding:30px 20px;
+}
+
+/**************右边----banner*************/
+.middle-banner{
+    width:100%;
+    height:200px;
+    background-color: #EED63E;
+    margin-bottom: 30px;
+    padding: 7% 0 7% 13%;
+}
+.middle-banner-inner{
+    width: 100%;
+    display: table;
+    height: 100%;
+}
+.money{
+    width:70px;
+    height:60px;
+    float: left;
+}
+.money > img{
+    width:100%;
+}
+.banner-title{
+    margin-left: 10px;
+    line-height: 60px;
+    color: #363636;
+    margin-right: 8%;
+    float: left;
+}
+.banner-score{
+    float: left;
+    font-family: "myfonts";
+    font-size: 80px;
+    margin-top: -15px;
+    color: #363636;
+}
+
+.banner-score > span{
+    font-size: 36px;
+}
+
+/**************右边----title*************/
+.middle-title,.middle-title-two{
+    width:100%;
+    height:50px;
+    margin-top:10px;
+    background-color: #EED63E;
+    padding-left: 20px;
+    padding-top:13px;
+    margin-bottom: 20px;
+}
+.list-icon{
+    width:25px;
+    height:25px;
+    margin-top:4px;
+    float: left;
+}
+.list-icon > img{
+    width:100%;
+}
+.middle-title > h1,
+.middle-title-two > h1{
+    float: left;
+    margin-left:10px;
+    font-size: 20px;
+}
+
+/**************右边----加分项目*************/
+.bonus-items{
+    width:100%;
+    height:auto;
+    display: table;
+}
+.bonus-items > li{
+    width:32%;
+    height:100px;
+    float: left;
+    background-color: #fff;
+    margin-right:2%;
+    padding:2%;
+    line-height: 60px;
+    margin-bottom:20px;
+    transition:background-color .3s;
+}
+.bonus-items > li:nth-of-type(3n){
+    margin-right:0;
+}
+.bonus-items > li > h1{
+    float: left;
+    font-size: 24px;
+    /*color:red;*/
+}
+.bonus-items > li > h2{
+    float: right;
+    font-size: 52px;
+    /*color:red;*/
+    font-family: "myfonts";
+}
+.bonus-items > li > h2 > span{
+    font-size: 18px;
+    color:#333;
+}
+
+/**************右边----减分项目*************/
+.minus-item{
+    width:100%;
+    height:auto;
+    display: table;
+}
+.minus-item > li{
+    width:32%;
+    height:300px;
+    float: left;
+    background-color: #fff;
+    padding-top:5%;
+    margin-right:2%;
+    margin-bottom:20px;
+    position: relative;
+    transition:all .3s;
+}
+.minus-item > li:nth-of-type(3n){
+    margin-right:0;
+}
+.circle{
+    width:150px;
+    height:150px;
+    margin:0 auto;
+    border-radius: 50%;
+    border-color: #554D13 #554D13 #554D13 transparent;
+    border-style: solid;
+    border-width: 10px;
+    transform: rotate(45deg);
+}
+.minus-item > li > h2:nth-of-type(1){
+    font-size: 52px;
+    width:100%;
+    transform: rotate(0deg)!important;
+    position: absolute;
+    top:31%;
+    text-align: center;
+}
+.minus-item > li > h1{
+    font-size: 24px;
+    color:#554D13;
+    margin-top:25px;
+    text-align: center;
+}
+.minus-item > li > h2{
+    font-size: 24px;
+    color:#554D13;
+    font-family: "myfonts";
+    text-align: center;
+}
+.minus-item > li  > h2 > span{
+    font-size: 18px;
+}
+.minus-item > li:hover{
+    background-color: #554D13;
+}
+.minus-item > li:hover .circle{
+    border-color: #fff #fff #fff transparent;
+}
+.minus-item > li:hover  h1,
+.minus-item > li:hover h2{
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+/**************左边************/
+.left-box{
+    width:300px;
+    height:auto;
+    background-color: red;
+    float: left;
+    margin-left: -100%;
+    display: table;
+}
+
+/**************左上边************/
+.left-box-top{
+    width:100%;
+    height:300px;
+    /*background-image: url(../img/classBackground.png);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left-top-black{
+    width:100%;
+    height:100%;
+    padding-top: 40px;
+    background-color: rgba(0,0,0,.5);
+}
+.head-portrait{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.head-portrait > img{
+    margin-left: -50px;
+    margin-top: -16px;
+}
+.left-top-black > h4{
+    color:#fff;
+    text-align: center;
+    margin-top:8px;
+}
+.left-top-black > h4:nth-of-type(1){
+    margin-top:15px;
+}
+.left-top-black > h6{
+    color:#EBECEB;
+    text-align: center;
+    margin-top:10px;
+}
+
+/**************左下边************/
+.left-box-bottom{
+    width:100%;
+    height:auto;
+    display: table;
+    background-color: #0D0B18;
+    padding-bottom: 300px;
+}
+.left-box-bottom > li{
+    width:100%;
+    height: 50px;
+    border-bottom:1px solid #181820;
+    text-align: center;
+    line-height: 50px;
+    color:#fff;
+}
+
+
+/**************遮罩层************/
+.maskbox{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.mask{
+    width: 1349px;
+    height: 620px;
+    margin: 0 auto;
+    position: relative;
+}
+.mask-list{
+    width: 506px;
+    height: 301px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+    padding: 40px 100px;
+}
+.mask-list>p{
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    border-bottom: 1px solid #333;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.changess{
+    width: 100%;
+    height: 100px;
+    color: #333;
+    margin-bottom: 28px;
+    line-height: 100px;
+    padding: 0 20px;
+}
+.changess>h1{
+    font-size: 24px;
+    font-weight: lighter;
+    width: 56%;
+    float: left;
+}
+.changess>h2{
+    font-size: 52px;
+    font-weight: lighter;
+    float: right;
+    width: 43%;
+    text-align: right;
+}
+.changess>h2>span{
+    font-size: 24px;
+    font-family: "myfonts";
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: lighter;
+    background-color: #363636;
+    color: #fff;
+    float: left;
+}
+.btn-y{
+    float: right;
+    background-color: #EED63E;
+    color: #fff;
+}
