@@ -15,7 +15,6 @@ import {createStore} from 'redux';
 import todoApp from './reducer';
 console.log(createStore);
 let store=createStore(todoApp);
-let aa;
 
 ReactDOM.render(
     (
